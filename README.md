@@ -20,3 +20,8 @@ Erat imperdiet sed euismod nisi porta. Imperdiet nulla malesuada pellentesque el
     git commit -m 'fix png: Se elimina archivo pesado'
     git push origin master
 
+# Parte 7
+
+## .5 Usando docker run ejecutar npm install
+1. Que pasas sino no especifico workdir: el npm install no puede ejecutar el archivo package.json
+2. Comando que se uso: docker run --name Mikhael -v "D:\Angello\Proyectos\orbis-example-training":/App -w /App -it angello/orbis-training-docker:1.5.0
